@@ -1,0 +1,367 @@
+/* 
+
+ */
+/* nav styling */
+
+nav {
+  height: 130px;
+  background-color: #eddfd8;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+nav .links a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+nav .logo {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4923f4;
+}
+
+.active-link {
+  color: #4923f4;
+  font-weight: 700px;
+}
+
+/* 
+
+home styling
+
+*/
+.index {
+  background-color: #eddfd8;
+}
+
+.hero {
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.hero h1 {
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 34px;
+}
+
+.hero p {
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #4923f4;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.row {
+  display: flex;
+}
+
+.branding {
+  width: 50%;
+  height: 500px;
+  background-image: url(../imgs/sanguine-thumb.JPG);
+  background-size: cover;
+}
+
+.infographics {
+  width: 50%;
+  height: 500px;
+  background-image: url(../imgs/info-thumb.JPG);
+  background-size: cover;
+}
+
+.webdesign {
+  width: 50%;
+  height: 500px;
+  background-image: url(../imgs/webdev-thumb.JPG);
+  background-size: cover;
+}
+
+.illustration {
+  width: 50%;
+  height: 500px;
+  background-image: url(../imgs/illust-thumb.JPG);
+  background-size: cover;
+}
+
+.branding:hover .hover-hidden {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.infographics:hover .hover-hidden {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.webdesign:hover .hover-hidden {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.illustration:hover .hover-hidden {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hover-hidden {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(237, 223, 216, 0.65);
+  backdrop-filter: blur(10px);
+}
+
+.hover-hidden h1 {
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 34px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 
+
+branding styling
+
+
+*/
+.work-page {
+  width: 91%;
+  margin-left: 150px;
+}
+
+.work-page-title {
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 34px;
+  margin-top: -60px;
+}
+
+.work-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.work-info {
+  width: 400px;
+}
+
+.work-info h2 {
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 26px;
+  border-bottom: 1px solid #eddfd8;
+}
+
+.work-info p {
+  font-family: lato, sans-serif;
+  font-weight: 400px;
+  color: #4923f4;
+}
+
+.work-img {
+  width: 800px;
+  height: 400px;
+  margin-left: 60px;
+}
+
+.about-hero {
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.about-block,
+.about-block-2,
+.about-block-mini {
+  display: flex;
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+.about-block {
+  margin-top: 80px;
+}
+
+.about-block p,
+.about-block-mini p {
+  font-family: lato, sans-serif;
+  font-weight: 400px;
+  color: #4923f4;
+  margin-top: 25px;
+}
+
+.about-block h2,
+.about-block-mini h2 {
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 26px;
+}
+
+/* 
+
+
+
+images
+
+
+
+*/
+
+#sanguine {
+  background-image: url(../imgs/sanguine.JPG);
+  background-size: cover;
+}
+
+#botani {
+  background-image: url(../imgs/botani.JPG);
+  background-size: cover;
+  width: 550px;
+}
+
+#dnp {
+  background-image: url(../imgs/doodnplay.JPG);
+  background-size: cover;
+}
+
+#aaron {
+  background-image: url(../imgs/aaron.JPG);
+  background-size: cover;
+}
+
+#tdor {
+  background-image: url(../imgs/tdor.JPG);
+  background-size: cover;
+  height: 790px;
+  width: 600px;
+}
+
+#hiv {
+  background-image: url(../imgs/HIV-AIDS-INFOGRAPHIC.jpg);
+  background-size: cover;
+}
+
+#typo {
+  background-image: url(../imgs/typo.jfif);
+  background-size: cover;
+  height: 810px;
+  width: 420px;
+}
+
+#kerami {
+  background-image: url(../imgs/kerami.JPG);
+  background-size: cover;
+}
+
+#indycd {
+  background-image: url(../imgs/indycd.JPG);
+  background-size: cover;
+}
+
+#mitski {
+  background-image: url(../imgs/mitski.JPG);
+  background-size: cover;
+}
+
+#n220 {
+  background-image: url(../imgs/n220.JPG);
+  background-size: cover;
+}
+
+#moon {
+  background-image: url(../imgs/moon.jpg);
+  background-size: cover;
+  height: 650px;
+}
+
+#crystal {
+  background-image: url(../imgs/crystal.JPG);
+  background-size: cover;
+  height: 700px;
+}
+
+#kyou {
+  background-image: url(../imgs/kyou.JPG);
+  background-size: cover;
+  height: 900px;
+}
+
+#widow {
+  background-image: url(../imgs/widow.JPG);
+  background-size: cover;
+  height: 800px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/* footer styling */
+footer {
+  margin-top: -20px;
+  background-color: white;
+  text-align: center;
+}
+
+footer hr {
+  border-color: #4923f4;
+}
+
+footer h1 {
+  padding-top: 40px;
+
+  font-family: masqualero, sans-serif;
+  font-weight: 700px;
+  color: #4923f4;
+  font-size: 34px;
+}
+
+footer span,
+footer .copyright {
+  font-family: lato, sans-serif;
+  font-weight: 400px;
+  color: #4923f4;
+}
+
+footer .socmed {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+}
+
+footer .contact-info {
+  width: 25%;
+  margin: 0px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+}
